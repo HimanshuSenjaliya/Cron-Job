@@ -11,5 +11,12 @@
       "src": "/(.*)",
       "dest": "index.js"
     }
+  ],
+  "crons": [
+    {
+      "path": "/morning-cron",
+      "schedule": "*/1 * * * *",
+      "timezone": "Asia/Kolkata"
+    }
   ]
 }
